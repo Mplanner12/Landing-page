@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: white;
+  position: relative
+}
+
+.hero{
+  background: #1f2937;
+  width: 100%;
+  padding: 0%;
+  min-height: 510px;
+  position: relative;
+  align-items: center;
+  padding: 0 8%;
+  overflow: hidden;
+}
+
+.hero .head{
+  font-weight: bold;
+  font-size: 25px;
+  color: #f9faf8;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-left: 5%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+nav h2{
+  color: #fff;
+  font-size: 24px;
+}
+
+nav ul{
+  left: 15%;
+  position: relative;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding-left: 50px;
+  margin-left: 2px
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.hero .text-container{
+  width: 350px;
+  margin-left: 5%
+}
+
+.hero .title{
+  font-size: 48px;
+  color: #f9faf8;
+  margin-top: 90px;
+  font-weight: bold;
+}
+
+.hero p{
+  font-size: 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.hero .text-container .btn{
+  color: #fff;
+  width: 145px;
+  background: #3882f6;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 16px;
+  border-radius: 12px;
+  border: 1px solid #3882f6;
+}
+
+.img-container{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 65%;
+  top: 32%;
+}
+
+.img-container img{
+  width: 220px;
+  height: 220px;
+}
+
+.info{
+  background: #fff;
+  width: 100%;
+  padding: 0%;
+  min-height: 461px;
+  position: relative;
+  align-items: center;
+  padding: 0 8%;
+  overflow: hidden;
+}
+
+.info h2{
+  position: relative;
+  margin-top: 6%;
+  left: 32%;
+  font-size: 28px;
+  color: #1f2937;
+}
+
+.boxes .box-1{
+  width: 140px;
+  height: 140px;
+  color: #fff;
+  border-radius: 12px;
+  border: 3px solid #3882f6;
+  position: absolute;
+  top: 29%;
+  left: 15%;
+}
+
+.box-1 img{
+  width: 135px;
+  height: 135px;
+  border-radius: 12px;
+}
+
+.boxes .p1{
+  position: absolute;
+  top: 61%;
+  left: 16.5%;
+}
+
+.boxes .box-2{
+  width: 140px;
+  height: 140px;
+  color: #fff;
+  border-radius: 12px;
+  border: 3px solid #3882f6;
+  position: absolute;
+  top: 29%;
+  left: 34.5%;
+}
+
+.box-2 img{
+  width: 135px;
+  height: 135px;
+  border-radius: 12px;
+}
+
+.boxes .p2{
+  position: absolute;
+  top: 61%;
+  left: 36%;
+}
+
+.boxes .box-3{
+  width: 140px;
+  height: 140px;
+  color: #fff;
+  border-radius: 12px;
+  border: 3px solid #3882f6;
+  position: absolute;
+  top: 29%;
+  left: 53%; 
+}
+
+.box-3 img{
+  width: 135px;
+  height: 135px;
+  border-radius: 12px;
+}
+
+.boxes .p3{
+  position: absolute;
+  top: 61%;
+  left: 53.7%;
+}
+
+.boxes .box-4{
+  width: 140px;
+  height: 140px;
+  color: #fff;
+  border-radius: 12px;
+  border: 3px solid #3882f6;
+  position: absolute;
+  top: 29%;
+  left: 72%;
+}
+
+.box-4 img{
+  width: 135px;
+  height: 135px;
+  border-radius: 12px;
+}
+
+.boxes .p4{
+  position: absolute;
+  top: 61%;
+  left: 73.2%;
+}
+
+.quote{
+  background: #E5E7EB;
+  width: 100%;
+  padding: 0%;
+  min-height: 300px;
+  position: relative;
+  align-items: center;
+  padding: 0 8%;
+  overflow: hidden;
+}
+
+.quote p{
+  width: 700px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  position: absolute;
+  top: 20%;
+}
+
+.quote span{
+  position: absolute;
+  bottom: 40%;
+  left: 65%;
+}
+
+.quote span p{
+  font-size: 23px;
+  font-style: normal;
+  font-weight: bold
+}
+
+.cta-box{
+  background: #fff;
+  width: 100%;
+  padding: 0%;
+  min-height: 370px;
+  position: relative;
+  align-items: center;
+  padding: 0 8%;
+  overflow: hidden;
+}
+
+.cta{
+  background: #3882f6;
+  width: 658px;
+  min-height: 120px;
+  border-radius: 5px;
+  position: absolute;
+  top: 30%;
+  left: 19%;
+}
+
+.cta-h{
+  font-size: 20px;
+  position: absolute;
+  color: #fff;
+  bottom: 52%;
+  left: 14%;
+}
+
+.cta p{
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  color: #fff;
+}
+
+.cta-btn{
+  width: 110px;
+  height: 28px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  top: 43%;
+  left: 70%;
+}
+
+.bottom{
+  background: #1f2937;
+  width: 100%;
+  padding: 0%;
+  min-height: 110px;
+  position: relative;
+  align-items: center;
+  padding: 0 8%;
+  overflow: hidden;
+}
+
+.bottom p{
+  color:  #f9faf8;
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+}
